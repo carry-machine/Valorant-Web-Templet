@@ -107,11 +107,12 @@ header .header_i .ham .menu:first-child{
 
 .mobile_menu{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0;
     left: -100%;
     background-color: #fff;
+    z-index: 999;
 }
 
 .mobile_menu .title>h2{
@@ -630,8 +631,8 @@ footer p{
         width: 100%;
     }
 
-    .shorts_section .container-md .shorts_title{
-        text-align: center;
+    .top5_section .container-md .row .col-4 .box .text h2{
+        font-size: 18px;
     }
 
     .top5_section .container-md .row .col-4 figure .medal{
@@ -643,6 +644,10 @@ footer p{
         position: absolute;
         top: -12px;
         left: -16px;
+    }
+
+    .shorts_section .container-md .shorts_title{
+        text-align: center;
     }
 }
 

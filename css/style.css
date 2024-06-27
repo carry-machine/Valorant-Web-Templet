@@ -410,6 +410,7 @@ header .header_i .ham .menu:first-child{
 .shorts_section .container-md .row .col-xl-3 .text p{
     line-height: 1.3;
     font-size: 14px;
+    text-decoration: underline;
 }
 
 footer{
@@ -714,6 +715,10 @@ footer p{
     .top5_section .container-md .row .col-4 figure .medal{
         width: 48px;
         height: 48px;
+    }
+
+    .shorts_section .container-md .row .col-xl-3 .text>p{
+        font-size: 12px;
     }
 }
 

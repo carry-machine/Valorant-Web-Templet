@@ -618,6 +618,10 @@ footer p{
 
 @media screen and (max-width:1200px){
 
+    .top{
+        display: none;
+    }
+
     header .header_i .sns{
         display: none;
     }

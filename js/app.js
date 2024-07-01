@@ -47,8 +47,11 @@ $(function(){
             $(this).find(".text").stop().fadeOut();
             $(this).find("span").stop().fadeOut();
             $(this).find(".box").stop().css({border:'1px solid #000'});
-
         }
     })
+
+    let schbtn = document.querySelector(".search-btn")
+    let schinput = document.querySelector(".search-box")
+    
 })
 

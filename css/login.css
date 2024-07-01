@@ -6,10 +6,10 @@
 
 body{
     background-color: #A39F9B;
-    background-image: url(../image/logo.png);
+    /* background-image: url(../image/logo.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 a{
@@ -27,12 +27,13 @@ img{
 }
 
 .lang{
-    width: 100px;
-    /* border: none; */
+    width: 90px;
+    padding: 5px 5px;
     position: absolute;
     top: 10px;
     right: 10px;
     border: 1px solid #A39F9B;
+    border-radius: 20px;
 }
 
 .login {
